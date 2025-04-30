@@ -13,7 +13,7 @@ However, the project is small and suitable for beginners. Feel free to develop y
 But, I recommend choosing an IDE program, it's like Notepad and you edit files, but more advanced. There are several options:
 * <b>Visual Studio Code</b>. A powerful development environment developed by Microsoft. A very popular free program.
 * <b>CLion</b>. Popular C++ development program. Developed by JetBrains. The program is paid. The trial version is valid for only 30 days.
-* <b>Sublime Text</b>. A spacious program, supports all languages. The program is paid, but you can download and use it for free, but for further use you need to purchase a license.
+* <b>Sublime Text</b>. A spacious program. The program is paid, but you can download and use it for free, but for further use you need to purchase a license.
 * <b>Code::Blocks</b>. Simple and lightweight IDE for working with C++.
 * <b>Dev-C++</b>. An outdated but popular IDE among students.
 
