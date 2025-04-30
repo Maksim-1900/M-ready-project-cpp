@@ -19,3 +19,55 @@ But, I recommend choosing an IDE program, it's like Notepad and you edit files, 
 * <b>[Dev-C++](https://dev-cpp.com/)</b>. An outdated but popular IDE among students.
 
 There are other programs, but I have selected all the popular programs.
+
+---
+# FAQ (Frequently Asked Questions)
+
+### 1. Who is this project for?
+This project is ideal for beginners who want to get started with C++ development on Windows. It provides a simple setup and example files to help you start coding quickly.
+
+### 2. What tools are required to run this project?
+You need the following:
+* <b>Operating System</b>: Windows
+* <b>Compiler</b>: MinGW g++ (See the [installation guide](https://www.geeksforgeeks.org/installing-mingw-tools-for-c-c-and-changing-environment-variable/))
+
+### 3. How do I compile and run the project?
+* Use the `Release.compile.bat` file to compile the project.
+* After compilation, double-click the `Release/run.bat` file to execute the program.
+
+### 4. What does the project do?
+The initial code in `main.cpp` prints "Hello world!" to the console. You can modify it to implement your own functionality.
+
+### 5. What is the recommended IDE for working on this project?
+You can use any of the following IDEs:
+* [Visual Studio Code](https://code.visualstudio.com/) (Free)
+* [CLion](https://www.jetbrains.com/clion/) (Paid, 30-day trial available)
+* [Sublime Text](https://www.sublimetext.com/) (Paid, but free to try)
+* [Code::Blocks](https://www.codeblocks.org/) (Free)
+* [Dev-C++](https://dev-cpp.com/) (Free, but outdated)
+
+### 6. Can I extend this project?
+Yes! This project serves as a starting point. Feel free to modify and build upon it to create your own applications.
+
+### 7. I’m new to programming, where should I start?
+This project is a great way to begin. Install [MinGW](https://sourceforge.net/projects/mingw/), set up your IDE, and explore the code in `main.cpp`. Experiment with making changes and see how the output evolves.
+
+### 9. I'm trying to compile, and the command says it can't find g++.
+Solution for the "Unknown g++ Command" Issue
+1. Install MinGW:
+  * Download MinGW from the [official MinGW page](https://sourceforge.net/projects/mingw/).
+  * During installation, ensure you select the `g++` compiler for installation.
+2. Add MinGW to the System PATH:
+  * Find the installation path of MinGW (e.g., `C:\MinGW\bin`).
+  * Add this path to the system's PATH environment variable:
+    * Search for "Environment Variables" in the Windows search bar.
+    * Under "System Variables," find and edit the `Path` variable.
+    * Add the full path to the MinGW `bin` directory (e.g., `C:\MinGW\bin`).
+    * Save the changes and restart your command prompt or IDE.
+3. Verify the Installation:
+  * Open a new command prompt.
+  * Run the command `g++ --version`.
+  * If MinGW is correctly installed, you should see the version of `g++` displayed.
+4. Common Troubleshooting Steps:
+  * MinGW Not Found: Ensure you installed MinGW in a valid directory and selected the `g++` component during installation.
+  * PATH Variable Not Working: Double-check that the MinGW `bin` directory is added to the PATH variable and there are no typos.
