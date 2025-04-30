@@ -7,6 +7,7 @@ Before starting the project, make sure you have the g++ compiler installed. Use 
 Check out this simple project.
 
 In the `src` directory there is a `main.cpp` file, it contains the initial code and when compiled it outputs `Hello world!`, you can change it as you wish. The `Release.compile.bat` file compiles the `main.cpp` file and the compiled file is in the `Release` directory. And `Release.compile.run.bat` compiles and runs it right away. You can change these two files.
+`Release/run.bat`: This file is used to automatically execute the program. It eliminates the need to manually run the file via the command line. Just double-click on it and the program will start running.
 
 However, the project is small and suitable for beginners. Feel free to develop your project.
 
