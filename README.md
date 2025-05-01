@@ -12,11 +12,11 @@ In the `src` directory there is a `main.cpp` file, it contains the initial code 
 However, the project is small and suitable for beginners. Feel free to develop your project.
 
 But, I recommend choosing an IDE program, it's like Notepad and you edit files, but more advanced. There are several options:
-* <b>[Visual Studio Code](https://code.visualstudio.com/)</b>. A powerful development environment developed by Microsoft. A very popular free program.
-* <b>[CLion](https://www.jetbrains.com/clion/)</b>. Popular C++ development program. Developed by JetBrains. The program is paid. The trial version is valid for only 30 days.
-* <b>[Sublime Text](https://www.sublimetext.com/)</b>. A spacious program. The program is paid, but you can download and use it for free, but for further use you need to purchase a license.
-* <b>[Code::Blocks](https://www.codeblocks.org/)</b>. Simple and lightweight IDE for working with C++.
-* <b>[Dev-C++](https://dev-cpp.com/)</b>. An outdated but popular IDE among students.
+* __[Visual Studio Code](https://code.visualstudio.com/)__. A powerful development environment developed by Microsoft. A very popular free program.
+* __[CLion](https://www.jetbrains.com/clion/)__. Popular C++ development program. Developed by JetBrains. The program is paid. The trial version is valid for only 30 days.
+* __[Sublime Text](https://www.sublimetext.com/)__. A spacious program. The program is paid, but you can download and use it for free, but for further use you need to purchase a license.
+* __[Code::Blocks](https://www.codeblocks.org/)__. Simple and lightweight IDE for working with C++.
+* __[Dev-C++](https://dev-cpp.com/)__. An outdated but popular IDE among students.
 
 There are other programs, but I have selected all the popular programs.
 
@@ -28,8 +28,8 @@ This project is ideal for beginners who want to get started with C++ development
 
 ### 2. What tools are required to run this project?
 You need the following:
-* <b>Operating System</b>: Windows
-* <b>Compiler</b>: MinGW g++ (See the [installation guide](https://www.geeksforgeeks.org/installing-mingw-tools-for-c-c-and-changing-environment-variable/))
+* __Operating System__: Windows
+* __Compiler__: MinGW g++ (See the [installation guide](https://www.geeksforgeeks.org/installing-mingw-tools-for-c-c-and-changing-environment-variable/))
 
 ### 3. How do I compile and run the project?
 * Use the `Release.compile.bat` file to compile the project.
@@ -69,5 +69,5 @@ Solution for the "Unknown g++ Command" Issue
   * Run the command `g++ --version`.
   * If MinGW is correctly installed, you should see the version of `g++` displayed.
 4. Common Troubleshooting Steps:
-  * MinGW Not Found: Ensure you installed MinGW in a valid directory and selected the `g++` component during installation.
-  * PATH Variable Not Working: Double-check that the MinGW `bin` directory is added to the PATH variable and there are no typos.
+  * __MinGW Not Found__: Ensure you installed MinGW in a valid directory and selected the `g++` component during installation.
+  * __PATH Variable Not Working__: Double-check that the MinGW `bin` directory is added to the PATH variable and there are no typos.
